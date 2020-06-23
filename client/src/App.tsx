@@ -12,6 +12,7 @@ function App() {
   return (
     <div className="App">
       <div>{data}</div>
+      <div>{data}</div>
     </div>
   )
 }
