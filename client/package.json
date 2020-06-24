@@ -10,11 +10,21 @@
     "@types/node": "^12.12.47",
     "@types/react": "^16.9.38",
     "@types/react-dom": "^16.9.8",
+    "@types/react-redux": "^7.1.9",
+    "@types/react-router-dom": "^5.1.5",
+    "@types/redux": "^3.6.0",
     "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
     "react-scripts": "3.4.1",
-    "typescript": "^3.7.5"
+    "redux-observable": "^1.2.0",
+    "rxjs-compat": "^6.5.5",
+    "typescript": "^3.7.5",
+    "typescript-fsa": "^3.0.0",
+    "typescript-fsa-redux-observable": "^0.18.0",
+    "typescript-fsa-redux-observable-of-action": "0.0.2"
   },
   "proxy": "http://localhost:4000",
   "scripts": {
@@ -37,5 +47,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0"
   }
 }
