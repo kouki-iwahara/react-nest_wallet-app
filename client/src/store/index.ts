@@ -8,7 +8,7 @@ export type AppState = ReturnType<typeof reducers>
 
 // reducer
 const application = {
-  signup: signinModule.reducer,
+  signin: signinModule.reducer,
 }
 const reducers = combineReducers(application)
 const rootReducer = (state: any, action: any) => {
