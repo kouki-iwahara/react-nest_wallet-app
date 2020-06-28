@@ -5,7 +5,7 @@ import InputEmail from '../../components/atoms/InputText/InputEmail'
 import InputPassword from '../../components/atoms/InputText/InputPassword'
 import Button from '../../components/atoms/Button/Button'
 
-const Login: React.FC = () => {
+const Signin: React.FC = () => {
   return (
     <div className="container">
       <div>ログイン</div>
@@ -35,4 +35,4 @@ const Login: React.FC = () => {
   )
 }
 
-export default Login
+export default Signin
