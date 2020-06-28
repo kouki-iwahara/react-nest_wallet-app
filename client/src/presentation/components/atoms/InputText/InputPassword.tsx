@@ -2,7 +2,7 @@ import React from 'react'
 
 type TProp = {
   value: string
-  onChange: () => void
+  onChange: (event: React.ChangeEvent<HTMLInputElement>) => void
 }
 
 const InputPassword: React.FC<TProp> = ({ value, onChange }) => {

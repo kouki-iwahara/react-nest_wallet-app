@@ -1,4 +1,4 @@
-import { Controller, Get } from '@nestjs/common';
+import { Controller, Get, Post, Body } from '@nestjs/common';
 import { AppService } from './app.service';
 
 @Controller()
@@ -9,9 +9,10 @@ export class AppController {
   getHello(): string {
     return this.appService.getHello();
   }
-  @Get('/test')
-  getHello2(): any {
-    const data = { data: 'test' };
-    return data;
+  // FIXME: 疎通確認
+  @Post('/regist')
+  registUser(@Body() req): any {
+    const testUser = { id: 'testID', userName: 'testName' };
+    return testUser;
   }
 }
